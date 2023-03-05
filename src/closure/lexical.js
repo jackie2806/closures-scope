@@ -15,4 +15,23 @@ function myFunction(){
     parent()
 }
 
-myFunction()
+//myFunction()
+
+//reto Crea un closure para sumar
+
+function sumWithClosure(firstNum) {
+    //como sabemos que vamos a recibir 2 parámetros, declaramos 2 variables
+    return function (secondNum) {
+        //retornamos esta función con el segundo parámetro
+        if (!secondNum) {
+            //verificamos si la función recibe el segundo parámetro
+            //si no recibe el segundo parámetro devolvemos el valor del primer parámetro
+          return firstNum;
+        } else {
+            //si recibe el segundo parámetro, sumamos ambos parámetros
+          return firstNum + secondNum;
+        }
+        
+     }
+  }
+ console.log(sumWithClosure(2)());  
