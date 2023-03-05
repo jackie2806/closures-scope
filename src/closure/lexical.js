@@ -1,4 +1,4 @@
-//accesibilidad de las variables está determinada por la posición dentro de los ámbitos anidados
+//accesibilidad de las variables está determinada por la posición de las mismas dentro de los ámbitos anidados
 const myGlobal = 0;
 function myFunction(){
     const myNumber = 1;
