@@ -28,3 +28,13 @@ function countries(){
 countries();
 console.log(country); //se accede desde afuera porque dicha variable ha sido declarada de manera global
 
+//console.log(jugar)
+let jugar = 'es mi pasión';
+console.log(jugar)
+
+console.log(empezar) // Aquí se aplica el hoisting.
+var empezar = 'primero'
+console.log(empezar)
+
+/* console.log(yo);
+const yo = 'otra vez' */
